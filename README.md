@@ -28,7 +28,7 @@ Este projeto realiza uma análise de dados de transações com cartão de crédi
 ```
 📦 credit-card-fraud-detection/
 ├── data/                       
-│   └── creditcard.csv           # Dataset com as transações
+│   └── creditcard.csv (adicionado manualmente) 
 │
 ├── images/                      # Imagens dos gráficos gerados
 │   ├── adaboost1.png
@@ -57,20 +57,26 @@ git clone https://github.com/seunome/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 ```
 
-2. **Crie um ambiente virtual e ative-o:**
+2. **Baixe o dataset manualmente:**
+
+- Acesse o link: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Faça o download do arquivo `creditcard.csv`
+- Coloque o arquivo na pasta `data/` do projeto
+
+3. **Crie um ambiente virtual e ative-o:**
 
 ```bash
 python -m venv venv
 source venv/bin/activate        # No Windows: venv\Scripts\activate
 ```
 
-3. **Instale as dependências:**
+4. **Instale as dependências:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Execute o Jupyter Notebook:**
+5. **Execute o Jupyter Notebook:**
 
 ```bash
 jupyter notebook
@@ -110,4 +116,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ---
 
 Sinta-se à vontade para dar uma ⭐ ou contribuir com melhorias!
-
